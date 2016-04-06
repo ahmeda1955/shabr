@@ -1,0 +1,18 @@
+/*.affix {*/
+/*      top: 0;*/
+/*      width: 100%;*/
+/*  }*/
+
+/*  .affix + .container-fluid {*/
+/*      padding-top: 70px;*/
+/*  }*/
+.fixed {
+    position: fixed;
+    
+    width:100%;
+}
+
+.centerr
+{
+    text-align:center;
+}
