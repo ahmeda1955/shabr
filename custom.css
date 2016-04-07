@@ -6,11 +6,23 @@
 /*  .affix + .container-fluid {*/
 /*      padding-top: 70px;*/
 /*  }*/
-.fixed {
-    position: fixed;
-    
-    width:100%;
-}
+  body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
 
 .centerr
 {
@@ -66,3 +78,14 @@ img{
      width:100%;
     
 }
+
+
+@media only screen and (max-width: 768px) {
+    img{
+        width:300px;
+        height:300px;
+           padding:2%;
+    }
+}
+
+
