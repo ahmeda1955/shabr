@@ -47,7 +47,7 @@ html, body{
       padding: 60px 0;
     }
 
-    #fs1 {
+    #home-img {
       background: linear-gradient(
         rgba(0,0,0,0.2),
         rgba(0,0,0,0.2)
@@ -121,3 +121,18 @@ h2{
   .font{
       font-style: italic;
   }
+  
+  .left{ 
+    width: 50%; 
+    float: left;
+    
+  }
+.right{
+  width: 50%;
+  float: left;
+  }
+
+@media (max-width: 320px){
+    .left{ width: 100%;  }
+.right{ width: 100%; } 
+}
