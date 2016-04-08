@@ -118,3 +118,18 @@ h2{
   .font{
       font-style: italic;
   }
+  
+  .left{ 
+    width: 50%; 
+    float: left;
+    
+  }
+.right{
+  width: 50%;
+  float: left;
+  }
+
+@media (max-width: 320px){
+    .left{ width: 100%;  }
+.right{ width: 100%; } 
+}
