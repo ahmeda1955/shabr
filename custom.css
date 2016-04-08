@@ -76,6 +76,9 @@ html, body{
     @media only screen and (min-width: 992px) {
         h1{
             font-size: 150px;
+              text-align: center;
+      color:white;
+    font-weight: bold;
         }
     }
     /* large */
