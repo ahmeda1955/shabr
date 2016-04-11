@@ -169,3 +169,18 @@ p{
   margin-top:auto;
    margin-bottom:auto;
 }
+
+#cantaac {
+
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Raleway', ;
+    color:blue;
+}
+
+#wheree {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway', ;
+    color:blue;
+}
