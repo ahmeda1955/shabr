@@ -1,0 +1,166 @@
+/*.affix {*/
+/*      top: 0;*/
+/*      width: 100%;*/
+/*  }*/
+/*  .affix + .container-fluid {*/
+/*      padding-top: 70px;*/
+/*  }*/
+body {
+  position: relative; }
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px; }
+
+html, body {
+  height: 100%; }
+
+html, body {
+  height: 100%; }
+
+.full-w {
+  width: 100%; }
+
+.full-h {
+  height: 100%; }
+
+.vert-center {
+  display: table-cell;
+  vertical-align: middle; }
+
+.section {
+  padding: 60px 0; }
+
+#home-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("sky.jpg") no-repeat center;
+  background-size: cover;
+  display: table; }
+
+body {
+  color: black;
+  background-color: white; }
+
+h3 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold; }
+
+/* small */
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 100px; }
+
+  .fonts {
+    font-size: 50px; } }
+/* medium */
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 150px; }
+
+  .fonts {
+    font-size: 80px; } }
+/* large */
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 200px; }
+
+  .fonts {
+    font-size: 100px; } }
+#fixed {
+  position: fixed;
+  background-color: white; }
+
+.well {
+  color: black; }
+
+h2 {
+  color: black;
+  text-align: center; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 1200px;
+  height: 500px;
+  margin: auto; }
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none; }
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #CC6699; }
+
+ins {
+  color: white; }
+
+.font {
+  font-style: italic; }
+
+.left {
+  width: 50%;
+  float: left; }
+
+.right {
+  width: 50%;
+  float: left; }
+
+@media (max-width: 320px) {
+  .left {
+    width: 100%; }
+
+  .right {
+    width: 100%; } }
+#test {
+  /*background-image:url('sky2.jpg');*/
+  /*opacity: 0.6;*/
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+p {
+  font-size: 20px;
+  color: red; }
+
+.lead {
+  text-align: center; }
+
+#leftcontainer {
+  height: 350px;
+  /*background-image: url("hot-air-balloon-clipart2.png");*/
+  background-size: cover; }
+
+#center {
+  display: block;
+  margin: 0 auto; }
+
+.infor {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+#cantaac {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Raleway";
+  color: black; }
+
+#wheree {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Raleway";
+  color: black; }
+
+.navbar-brand {
+  color: white;
+  font-size: 30px; }
+
+/*# sourceMappingURL=output.css.map */

@@ -7,6 +7,8 @@
 /*  .affix + .container-fluid {*/
 /*      padding-top: 70px;*/
 /*  }*/
+$mainFont: "Helvetica Neue", Arial, sans-serif;
+$mainColor: #CC6699;
   body {
       position: relative; 
   }
@@ -124,8 +126,9 @@ h2{
   h1{
     
       text-align: center;
-      color:white;
+      
     font-weight: bold;
+     font-family: $mainFont; color: $mainColor; 
     
   }
   ins{
@@ -162,7 +165,7 @@ h2{
 
 p{
   font-size:20px;
-  color:black;
+  color:red;
    
 }
 .lead{
